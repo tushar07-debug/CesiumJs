@@ -8,7 +8,7 @@ var viewer = new Cesium.Viewer('cesiumContainer');
 var handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
 
 // OpenWeatherMap API key
-var openWeatherApiKey = 'd7b88ee07fb5e40ee8dd89b0229605f5';
+var openWeatherApiKey = '';
 
 // Set up the click event handler
 handler.setInputAction(function (movement) {
